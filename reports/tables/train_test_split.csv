@@ -1,0 +1,2 @@
+SPLIT_DATE,n_train,n_test,predictors
+2019-09-09,1181,297,"PM10, NO, NO2, NOx, NH3, CO, SO2, O3"

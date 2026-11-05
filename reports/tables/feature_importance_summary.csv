@@ -1,0 +1,12 @@
+,correlation rank,MI rank,forward-selection step,LASSO drop-out rank,kept by LASSO,mean rank
+Season_Monsoon,1,2,1,1,True,1.25
+PM10,2,1,2,1,True,1.5
+NOx,5,5,3,4,True,4.25
+NO2,3,3,10,3,True,4.75
+O3,4,6,4,5,True,4.75
+NH3,10,4,5,6,True,6.25
+SO2,7,7,7,7,True,7.0
+NO,8,10,6,9,True,8.25
+Season_Summer,6,9,8,11,True,8.5
+CO,11,8,9,8,True,9.0
+Season_Post-monsoon,9,11,11,10,True,10.25

@@ -1,0 +1,6 @@
+criterion,winner
+Lowest AIC,"PM10, NO, NO2, NOx, NH3, CO, SO2, O3 + Season"
+Lowest BIC,"PM10, NO, NO2, NOx, NH3, CO, SO2, O3 + Season"
+Lowest Cp,"PM10, NO, NO2, NOx, NH3, CO, SO2, O3 + Season"
+Best TS-CV RMSE,MLR 2: + season
+Best TS-CV MAE,log MLR 2
