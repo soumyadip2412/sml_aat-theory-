@@ -1,0 +1,7 @@
+,days flagged,% of days
+Outlying Y (|t_i| > Bonferroni),3,0.2540220152413209
+Outlying X (h_ii > 2p/n),79,6.689246401354784
+Influential (|DFFITS| > 2√(p/n)),74,6.265876375952582
+Influential (Cook's D > 4/n),72,6.096528365791702
+Very influential (Cook's D > F50),0,0.0
+Any |DFBETAS| > 2/√n,268,22.692633361558002

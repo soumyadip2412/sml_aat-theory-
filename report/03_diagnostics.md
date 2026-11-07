@@ -1,6 +1,6 @@
 # Regression Assumption Testing and Model Diagnostics
 
-Notebook: `notebooks/04_diagnostics.ipynb` · Figures 09-15 · Tables `assumption_tests.csv`, `vif.csv`, `robust_se_comparison.csv`, `influence_*.csv`, `top_influential_days.csv`
+Notebook: `notebooks/AirWatch_Bengaluru_SML_AAT.ipynb` §6-7 (HC3 standard errors, the ACF plot, the top-days table and the sensitivity refit are in the archived `archive/original_notebooks/04_diagnostics.ipynb`) · Figures 03-05 · Tables `assumption_tests.csv`, `vif.csv`, `robust_se_comparison.csv`, `influence_*.csv`, `top_influential_days.csv`
 
 The model checked is **MLR 2** (8 pollutants + season), fitted on the 1181 training days.
 
@@ -70,7 +70,7 @@ All diagnostics use the log model (n = 1181, p = 12 parameters).
 | DFBETAS | Influence on any one coefficient | \|DFBETAS\| > 2/√n = 0.058 | 268 (22.7%) |
 
 ### Findings
-- **Added-variable plots (Figure 12, pollutants only):** PM10, NOx, NO2 and O3 keep a clear linear relationship with log(PM2.5) after adjusting for the others, and NO a clear negative one. NH3 and SO2 have weak slopes that lean on a few high-X days (the outlying-X points flagged by leverage). The CO panel is almost flat, which agrees with CO failing the robust tests. None of the panels shows curvature.
+- **Added-variable plots (figure `04_added_variable_plots.png`, full log model including season):** PM10, NOx, NO2 and O3 keep a clear linear relationship with log(PM2.5) after adjusting for the others, and NO a clear negative one. NH3 and SO2 have weak slopes that lean on a few high-X days (the outlying-X points flagged by leverage). The CO panel is almost flat, which agrees with CO failing the robust tests. None of the panels shows curvature.
 - **No single day dominates the fit.** The largest Cook's distance is 0.056, far below the "strong" cut-off of 0.95.
 - **The most influential days** (Table `top_influential_days.csv`) are unusually *clean* winter days, such as 28-29 Jan 2017 (PM2.5 of 10 and 7), where the model expected winter-level pollution. The 13-Dec-2016 spike (PM2.5 = 204) is also influential.
 - **Diagnostics caught sensor errors.** In the first run of this analysis, the most influential days were 3-8 July 2017. The cause was one impossible reading (PM2.5 = 314 > PM10 = 120) that interpolation had spread into a 5-day artificial spike. Checks for PM2.5 > PM10 (64 days) and implausible CO (7 days) were then added to the data cleaning. All results in this report use the corrected data.

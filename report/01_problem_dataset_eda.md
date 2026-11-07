@@ -61,7 +61,7 @@ This project builds and validates statistical models that **explain and predict 
 
 ## 3. Exploratory Data Analysis
 
-Figures: `reports/figures/01-05`. Tables: `reports/tables/`.
+Notebook: `notebooks/AirWatch_Bengaluru_SML_AAT.ipynb` §2-3 · Figure `reports/figures/01_eda.png` (the histograms and scatter plots are archived in `archive/original_outputs/`).
 
 ### Descriptive statistics (PM2.5)
 | n | Mean | SD | Median | Min | Max | Skew | Kurtosis |

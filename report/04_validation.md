@@ -1,6 +1,6 @@
 # Model Selection and Estimator Validation
 
-Notebook: `notebooks/05_validation_model_selection.ipynb` · Figures 16-18 · Tables `all_subsets.csv`, `best_subset_*.csv`, `cross_validation_*.csv`, `coefficient_stability_folds.csv`, `bootstrap_*.csv`
+Notebook: `notebooks/AirWatch_Bengaluru_SML_AAT.ipynb` §8 (AIC, BIC, Cp). Cross-validation and bootstrap (Sections 7b-7c) are beyond the syllabus and are in the archived `archive/original_notebooks/05_validation_model_selection.ipynb` · Figures 16-18 (archived) · Tables `all_subsets.csv`, `best_subset_*.csv`, `cross_validation_*.csv`, `coefficient_stability_folds.csv`, `bootstrap_*.csv`
 
 All of this work uses the 1181 training days only; the test period stays untouched. The target is log(PM2.5), the remedied model from Section 6.
 

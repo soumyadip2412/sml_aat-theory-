@@ -1,0 +1,10 @@
+,MLR 2 (PM2.5),MLR 2 (log PM2.5),Assumption met? (before),Assumption met? (after)
+Linearity: Rainbow p,0.0002746859722068234,0.10446227777866282,No,Yes
+Normality: residual skew,2.59150683323161,-0.20133975709868082,,
+Normality: Jarque-Bera p,0.0,2.3264648217455588e-51,No,No
+Normality: Shapiro-Wilk p,5.371700612163988e-31,1.5883422304261848e-12,No,No
+Homoscedasticity: Breusch-Pagan p,1.7882298620304148e-08,6.263057852367067e-11,No,No
+Homoscedasticity: White p,1.9652413094496855e-16,1.4750759389534429e-19,No,No
+Independence: Durbin-Watson,0.9990770658432988,0.9041198467116028,No,No
+Independence: Ljung-Box (lag 7) p,4.6993789899753043e-116,4.946346274468104e-132,No,No
+Adjusted R²,0.562967043787176,0.6091494612962981,,

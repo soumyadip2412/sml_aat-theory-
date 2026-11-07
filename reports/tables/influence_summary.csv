@@ -1,7 +1,6 @@
-,days flagged,% of days
-Outlying Y (|t_i| > Bonferroni),3,0.2540220152413209
-Outlying X (h_ii > 2p/n),79,6.689246401354784
-Influential (|DFFITS| > 2√(p/n)),74,6.265876375952582
-Influential (Cook's D > 4/n),72,6.096528365791702
-Very influential (Cook's D > F50),0,0.0
-Any |DFBETAS| > 2/√n,268,22.692633361558002
+,rule,cut-off,days flagged
+Studentized deleted residual,"|t_i| > t(1-α/2n, n-p-1)",4.109961267646355,3
+Leverage h_ii,h_ii > 2p/n,0.02032176121930567,79
+DFFITS,|DFFITS| > 2√(p/n),0.20160238698639296,74
+Cook's D,D_i > 4/n,0.003386960203217612,72
+DFBETAS (any coefficient),|DFBETAS| > 2/√n,0.05819759619793255,268

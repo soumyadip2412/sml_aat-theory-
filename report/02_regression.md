@@ -1,6 +1,6 @@
 # Simple and Multiple Linear Regression
 
-Notebook: `notebooks/03_regression.ipynb` · Figures 06-08 · Tables `slr_*`, `mlr_*`, `regression_comparison.csv`
+Notebook: `notebooks/AirWatch_Bengaluru_SML_AAT.ipynb` §4-5 · Figures 02 · Tables `slr_*`, `mlr_*`, `regression_comparison.csv`
 
 ## Modelling set-up
 - **Data:** 1478 days with complete values for PM2.5 and 8 co-pollutants (PM10, NO, NO2, NOx, NH3, CO, SO2, O3), after quality control.

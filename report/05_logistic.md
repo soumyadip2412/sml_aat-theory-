@@ -1,6 +1,6 @@
 # Categorical Data Analysis and Logistic Regression
 
-Notebook: `notebooks/06_categorical_logistic.ipynb` · Figures 19-22 · Tables `contingency_*`, `odds_ratios.csv`, `logistic_*.csv`
+Notebook: `notebooks/AirWatch_Bengaluru_SML_AAT.ipynb` §10 · Figure 07 (the weekday odds ratio, probability curve, threshold sweep and calibration are in the archived `archive/original_notebooks/06_categorical_logistic.ipynb`) · Tables `contingency_*`, `odds_ratios.csv`, `logistic_*.csv`
 
 **Question:** what makes a day **unhealthy** (PM2.5 > 60 µg/m³, the CPCB 24-hour standard), and can it be predicted from the other pollutants? 149 of the 1649 days with a PM2.5 reading (9.0%) were unhealthy.
 
